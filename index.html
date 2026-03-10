@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales Registration</title>
+    <link rel="stylesheet" href="./assignment 2.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div>
+          <a href="dashboard.html">Dashboard</a>
+        </div><br>
+
+        <div>
+          <a href="supplier Registration.html">Suppliers Management</a>
+        </div><br>
+
+        <div>
+          <a href="Sales Management.html">Sales Management</a>
+        </div>
+      </div>
+
+      <div class="content">
+        <form class="action">
+          <!-- Sales Section -->
+          <section>
+            <h1>Sales Registration</h1>
+
+            <div class="input-container">
+              <div class="input-section">
+                <label for="salesDate">Sales Date</label>
+                <input type="date" id="salesDate" />
+              </div>
+
+              <div class="input-section">
+                <label for="salesPerson">Sales Person</label>
+                <select id="salesPerson">
+                  <option value="">Select a representative</option>
+                  <option value="1">Omali Stena</option>
+                  <option value="2">Mandela Nelson</option>
+                  <option value="3">Khloe Kardashian</option>
+                </select>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h1>Customer Details</h1>
+
+            <div class="input-container">
+              <div class="input-section">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter full name" />
+              </div>
+              <br><br><br><br><br><br>
+
+              <div class="input-section">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="text"
+                  id="phone"
+                  placeholder="Enter phone number"
+                />
+              </div>
+              </section>
+              <section>
+                <div class="input-container">
+
+              <div class="input-section">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter email" />
+              </div>
+
+              <div class="input-section">
+                <label for="customerType">Customer Type</label>
+                <select id="customerType">
+                  <option value="">Select Customer Type</option>
+                  <option value="1">Wholesale</option>
+                  <option value="2">Retail</option>
+                </select>
+              </div>
+            
+            </div>
+          </section>
+
+          <!-- Items Section -->
+          <section>
+            <h1>Items</h1>
+
+            <div class="input-container">
+              <div class="input-section">
+                <label for="productId1">Product ID</label>
+                <input type="text" id="productId1" />
+              </div>
+              <br><br><br><br>
+
+              <div class="input-section">
+                <label for="quantity1">Quantity</label>
+                <input type="number" id="quantity1" />
+              </div>
+
+              <div class="input-section">
+                <label for="price1">Unit Price</label>
+                <input type="number" id="price1" />
+              </div>
+            </div>
+          </section>
+
+          <!-- Second Item -->
+          <section>
+            <div class="input-container">
+              <div class="input-section">
+                <label for="productId2">Product ID</label>
+                <input type="text" id="productId2" />
+              </div>
+
+              <div class="input-section">
+                <label for="quantity2">Quantity</label>
+                <input type="number" id="quantity2" />
+              </div>
+
+              <div class="input-section">
+                <label for="price2">Unit Price</label>
+                <input type="number" id="price2" />
+              </div>
+            </div>
+          </section>
+
+          <!-- Buttons -->
+          <div class="button">
+            <button type="reset" class="cancel">Cancel</button>
+            <button type="submit" class="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
