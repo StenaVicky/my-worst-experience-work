@@ -95,9 +95,9 @@ option {
   background-color: red;
 }
 .submit {
-  background-color: darkblue;
   cursor: pointer;
   border-radius: 5px;
   width: 150px;
   padding: 10px;
+  justify-content: space-between;
 }
